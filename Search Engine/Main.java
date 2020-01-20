@@ -28,7 +28,6 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class Main {
-    public static List<String> titles = new ArrayList<String>();
     public static Path documents_path = Path.of("../processed");
     public static Path index_path = Path.of("../index");
 
@@ -36,6 +35,8 @@ public class Main {
     public static Similarity similarity = new LMDirichletSimilarity(0.5f);
 
     public static Path output_path = Path.of("../results.txt");
+    public static Path title_file = Path.of("../titles.txt");
+
 
     //TODO: extra statistic? => average ranking.
 
@@ -43,7 +44,8 @@ public class Main {
 
         String usage = "Usage:\n\t index -docs dir -index dir -feedback true/false: create an index from a directory of XML documents and write it to a given directory\n";
         usage += "\t search -query query -index dir -k k -feedback true/false: search an index for a query and return the top k results, if feedback is true, the index must support feedback as wel\n";
-        usage += "\t benchmark -titles titles -index index -k k -tokenizer tokenizer -tokenfilter tokenfilter : run a benchmark for titles, index, top-k";
+        usage += "\t benchmark -titles titles -index index -k k -tokenfilter tokenfilter -similarity (LM/TF-IDF/Okapi): run a benchmark for titles, index, top-k\n";
+        usage += "\t \033[0;31mTo benchmark, you need to have a matching index, using the index command only produces a LMDirichletSimilarity(0.5) index, so be careful with this!\033[0m";
 
         System.out.println(usage);
 
@@ -107,26 +109,64 @@ public class Main {
                     }
                 }
 
+                List<Document> documents;
                 if (!feedback) {
-                    List<Document> documents = searchIndex(query, k, false);
-                    for (Integer i = 0; i < documents.size(); ++i) {
-                        System.out.print(i + 1);
-                        System.out.println(": " + documents.get(i).get("title") + " (" + documents.get(i).get("id") + ")");
-                    }
+                    documents = searchIndex(query, k, false);
                 }
                 else{
-                    //TODO!!!!
-
+                    documents = doFeedbackSearch(query, k);
                 }
+                for (Integer i = 0; i < documents.size(); ++i) {
+                    System.out.print(i + 1);
+                    System.out.println(": " + documents.get(i).get("title") + " (" + documents.get(i).get("id") + ")");
+                }
+
                 return;
             }
 
             if(args[0].equals("benchmark")){
-                //TODO!!!!
+                Integer k = 10;
+                String tokenfilter = "none";
+                for(int i = 1; i < args.length; ++i){
+                    if (args[i].equals("-titles")){
+                        title_file = Path.of(args[i+1]);
+                        ++i;
+                    }
+                    if (args[i].equals("-index")){
+                        index_path = Path.of(args[i+1]);
+                        ++i;
+                    }
+                    if (args[i].equals("-k")){
+                        k = Integer.valueOf(args[i+1]);
+                        ++i;
+                    }
+                    if (args[i].equals("-tokenfilter")){
+                        tokenfilter = args[i+1];
+                        ++i;
+                    }
+                    if(args[i].equals("-similarity")){
+                        switch (args[i + 1]) {
+                            case "LM":
+                                similarity = new LMDirichletSimilarity(0.5F);
+                                break;
+                            case "TF-IDF":
+                                similarity = new ClassicSimilarity();
+                                break;
+                            case "okapi":
+                                similarity = new BM25Similarity();
+                                break;
+                        }
+
+                        ++i;
+                    }
+                }
+                if (tokenfilter.equals("none"))
+                    analyzer = CustomAnalyzer.builder().withTokenizer("whitespace").build();
+                else
+                    analyzer = CustomAnalyzer.builder().withTokenizer("whitespace").addTokenFilter(tokenfilter).build();
+                benchmark(k, false);
             }
         }
-        analyzer = CustomAnalyzer.builder().withTokenizer("whitespace").addTokenFilter("lowercase").build();
-
 //        IndexWriterConfig config = new IndexWriterConfig(analyzer);
 //        config.setOpenMode(IndexWriterConfig.OpenMode.CREATE); // overwrite index if needed
 //
@@ -142,12 +182,12 @@ public class Main {
 //            Files.write(output_path, new String("Alpha: " + alpha + " Beta: " + beta + " Gamma: " + gamma + " k: 50 " + benchmarkFeedback(50, 1, alpha, beta, gamma).toString() + "\n").getBytes(), StandardOpenOption.APPEND);
 //            Files.write(output_path, new String("Alpha: " + alpha + " Beta: " + beta + " Gamma: " + gamma + " k: 100 " + benchmarkFeedback(100, 1, alpha, beta, gamma).toString() + "\n").getBytes(), StandardOpenOption.APPEND);
 //        }
-        Double alpha = 0.5D;
-        Double beta = 1D - alpha;
-        Double gamma = 0.1D;
-        Files.write(output_path, new String("Alpha: " + alpha + " Beta: " + beta + " Gamma: " + gamma + " k: 10 " + benchmarkFeedback(10, 1, alpha, beta, gamma).toString() + "\n").getBytes(), StandardOpenOption.APPEND);
-        Files.write(output_path, new String("Alpha: " + alpha + " Beta: " + beta + " Gamma: " + gamma + " k: 50 " + benchmarkFeedback(50, 1, alpha, beta, gamma).toString() + "\n").getBytes(), StandardOpenOption.APPEND);
-        Files.write(output_path, new String("Alpha: " + alpha + " Beta: " + beta + " Gamma: " + gamma + " k: 100 " + benchmarkFeedback(100, 1, alpha, beta, gamma).toString() + "\n").getBytes(), StandardOpenOption.APPEND);
+//        Double alpha = 0.5D;
+//        Double beta = 1D - alpha;
+//        Double gamma = 0.1D;
+//        Files.write(output_path, new String("Alpha: " + alpha + " Beta: " + beta + " Gamma: " + gamma + " k: 10 " + benchmarkFeedback(10, 1, alpha, beta, gamma).toString() + "\n").getBytes(), StandardOpenOption.APPEND);
+//        Files.write(output_path, new String("Alpha: " + alpha + " Beta: " + beta + " Gamma: " + gamma + " k: 50 " + benchmarkFeedback(50, 1, alpha, beta, gamma).toString() + "\n").getBytes(), StandardOpenOption.APPEND);
+//        Files.write(output_path, new String("Alpha: " + alpha + " Beta: " + beta + " Gamma: " + gamma + " k: 100 " + benchmarkFeedback(100, 1, alpha, beta, gamma).toString() + "\n").getBytes(), StandardOpenOption.APPEND);
 
 //        for(int i = 0; i < 2; ++i){
 //            CustomAnalyzer.Builder builder = CustomAnalyzer.builder().withTokenizer("whitespace");
@@ -260,14 +300,6 @@ public class Main {
         luceneDoc.add(new TextField("answers", String.join("\n", answers), Field.Store.NO));
         writer.addDocument(luceneDoc);
 
-        titles.add(title);
-    }
-
-    public static void searchAndPrint(String searchterm, Integer k) throws IOException, ParseException {
-        List<Document> documents = searchIndex(searchterm, k, false);
-        for(Document d : documents){
-            System.out.println(d.toString());
-        }
     }
 
     public static Integer averagePosition() throws IOException {
@@ -312,6 +344,7 @@ public class Main {
                         return i;
                 }
             } catch (ParseException e) {
+                // based on https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println
                 System.out.println("\033[0;31m" + "Can't parse query " + title + "\033[0m");
             }
         }
@@ -351,11 +384,13 @@ public class Main {
     public static Integer benchmark(Integer k, boolean multifield) throws IOException {
          //Titles are stored in a file, try for each title if one of the found documents is the same as the searched (i.e it has the same title)
 
-        Path title_file = Path.of("../titles.txt");
-
         AtomicReference<Integer> count = new AtomicReference<>(0);
         AtomicReference<Integer> i = new AtomicReference<Integer>(0);
+
+        // based on https://stackoverflow.com/a/35523560
+        long title_count = Files.lines(title_file).count();
         // File iteration based on https://www.artificialworlds.net/blog/2017/02/09/iterating-over-the-lines-of-a-file-in-java/ (Comment by Scott Shipp)
+        System.out.println("\033[0;32mBenchmarking started!\033[0m");
         Files.lines(title_file).forEach((title)->{
             try {
                 List<Document> results = searchIndex(title, k, multifield);
@@ -367,8 +402,8 @@ public class Main {
                         break;
                     }
                 }
-                if (i.get() % 100 == 0)
-                    System.out.println("benchmarking progress: " + i.get().toString() + " / 1000");
+                if (i.get() % 10 == 0)
+                    System.out.println("benchmarking progress: " + i.get().toString() + " / " + title_count);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -427,20 +462,19 @@ public class Main {
 
         // based on https://data-flair.training/blogs/read-java-console-input/
         Scanner in = new Scanner(System.in);
-        System.out.println("Do you want to do relevance search? (Y/N)");
+        System.out.println("Do you want to use relevance feedback? (Y/N)");
         if(in.nextLine().equals("Y")) {
-            System.out.println("\"\\033[0;32mType after each title, Y for relevant, N for irrelevant\033[0m");
+            System.out.println("\n\033[0;32mType after each title, Y for relevant, N for irrelevant\033[0m");
             for (Integer i = 0; i < docIDs.size() ; ++i) {
                 Integer docID = docIDs.get(i);
                 String title = reader.document(docID).get("title");
-                System.out.print(i.toString() + ": " + title + "  :");
+                System.out.print((i + 1) + ": " + title + "  : ");
                 if (in.nextLine().equals("Y"))
                     relevant.add(docID);
                 else
                     irrelevant.add(docID);
-                System.out.print("\n");
             }
-            System.out.println("Doing relevance feedback");
+            System.out.println("\nDoing relevance feedback\n");
             query_terms = Expand(query_terms, reader, relevant, irrelevant, 0.9, 0.1, 0D);
             docIDs = feedbackSearch(query_terms, reader, k);
         }
@@ -500,7 +534,7 @@ public class Main {
                 documents.remove(k.intValue());
             }
         }
-//        System.out.println("Scoring done");
+//        System.out.println("\u001B[1m\033[0;32mScoring done\033[0m");
         return documents;
     }
 
@@ -666,7 +700,5 @@ public class Main {
         luceneDoc.add(new Field("id", path.getFileName().toString().split("\\.")[0], Stored_Not_Indexed)); //ID = filename MINUS extension
         luceneDoc.add(new Field("question", question_body, Indexed_terms));
         writer.addDocument(luceneDoc);
-
-        titles.add(title);
     }
 }

@@ -1,0 +1,63 @@
+ Similarity: TF-IDF Filter: none k: 10 178
+ Similarity: TF-IDF Filter: none k: 50 266
+ Similarity: TF-IDF Filter: none k: 100 320
+ Similarity: TF-IDF Filter: none k: 10 159
+ Similarity: TF-IDF Filter: none k: 50 244
+ Similarity: TF-IDF Filter: none k: 100 297
+ Similarity: TF-IDF Filter: lowercase k: 10 221
+ Similarity: TF-IDF Filter: lowercase k: 50 323
+ Similarity: TF-IDF Filter: lowercase k: 100 372
+ Similarity: TF-IDF Filter: lowercase k: 10 187
+ Similarity: TF-IDF Filter: lowercase k: 50 288
+ Similarity: TF-IDF Filter: lowercase k: 100 350
+ Similarity: Language Filter: none k: 10 262
+ Similarity: Language Filter: none k: 50 340
+ Similarity: Language Filter: none k: 100 391
+ Similarity: Language Filter: none k: 10 221
+ Similarity: Language Filter: none k: 50 306
+ Similarity: Language Filter: none k: 100 360
+ Similarity: Language Filter: lowercase k: 10 318
+ Similarity: Language Filter: lowercase k: 50 414
+ Similarity: Language Filter: lowercase k: 100 457
+ Similarity: Language Filter: lowercase k: 10 266
+ Similarity: Language Filter: lowercase k: 50 359
+ Similarity: Language Filter: lowercase k: 100 411
+ Similarity: Okapi Filter: none k: 10 251
+ Similarity: Okapi Filter: none k: 50 341
+ Similarity: Okapi Filter: none k: 100 380
+ Similarity: Okapi Filter: none k: 10 199
+ Similarity: Okapi Filter: none k: 50 296
+ Similarity: Okapi Filter: none k: 100 342
+ Similarity: Okapi Filter: lowercase k: 10 303
+ Similarity: Okapi Filter: lowercase k: 50 403
+ Similarity: Okapi Filter: lowercase k: 100 446
+ Similarity: Okapi Filter: lowercase k: 10 244
+ Similarity: Okapi Filter: lowercase k: 50 349
+ Similarity: Okapi Filter: lowercase k: 100 408
+ 
+ -----------------------------------
+ 
+Alpha: 0.5 Beta: 0.5 Gamma: 0.0 k: 10 427
+Alpha: 0.5 Beta: 0.5 Gamma: 0.0 k: 50 584
+Alpha: 0.5 Beta: 0.5 Gamma: 0.0 k: 100 653
+Alpha: 0.7 Beta: 0.30000000000000004 Gamma: 0.0 k: 10 429
+Alpha: 0.7 Beta: 0.30000000000000004 Gamma: 0.0 k: 50 583
+Alpha: 0.7 Beta: 0.30000000000000004 Gamma: 0.0 k: 100 653
+Alpha: 0.8999999999999999 Beta: 0.10000000000000009 Gamma: 0.0 k: 10 431
+Alpha: 0.8999999999999999 Beta: 0.10000000000000009 Gamma: 0.0 k: 50 585
+Alpha: 0.8999999999999999 Beta: 0.10000000000000009 Gamma: 0.0 k: 100 650
+Alpha: 1.0 Beta: 0.0 Gamma: 0.0 k: 10 425
+Alpha: 1.0 Beta: 0.0 Gamma: 0.0 k: 50 572
+Alpha: 1.0 Beta: 0.0 Gamma: 0.0 k: 100 638
+Alpha: 0.7 Beta: 0.30000000000000004 Gamma: 0.1 k: 10 428
+Alpha: 0.7 Beta: 0.30000000000000004 Gamma: 0.1 k: 50 583
+Alpha: 0.7 Beta: 0.30000000000000004 Gamma: 0.1 k: 100 654
+Alpha: 0.8999999999999999 Beta: 0.10000000000000009 Gamma: 0.1 k: 10 424
+Alpha: 0.8999999999999999 Beta: 0.10000000000000009 Gamma: 0.1 k: 50 582
+Alpha: 0.8999999999999999 Beta: 0.10000000000000009 Gamma: 0.1 k: 100 646
+Alpha: 0.9 Beta: 0.09999999999999998 Gamma: 0.05 k: 10 428
+Alpha: 0.9 Beta: 0.09999999999999998 Gamma: 0.05 k: 50 584
+Alpha: 0.9 Beta: 0.09999999999999998 Gamma: 0.05 k: 100 648
+Alpha: 0.5 Beta: 0.5 Gamma: 0.1 k: 10 425
+Alpha: 0.5 Beta: 0.5 Gamma: 0.1 k: 50 583
+Alpha: 0.5 Beta: 0.5 Gamma: 0.1 k: 100 652
