@@ -1,0 +1,1000 @@
+Descriptor conversion problem
+Running web.py app with custom cmd options
+Changing from arrays TO struct containing arrays
+Python Input validation
+Failed to Login as 'Domain\ComputerName' pyodbc with py2exe
+C++ WriteProcessMemory Without Variables
+Determine which function was called
+What are metaclasses in Python?
+python database location
+How does one include the server hostname in a django error email?
+C# equivalent of C++/CLI data types
+Is there a Python method to calculate lognormal mean and variance?
+Flask-Login package is broken by importing Google App Engine's testbed
+How to check for end of tag in Python using minidom?
+Bad behavior with printf and multiple strings
+How to use sorl-thumbnail without django?
+Running two python scripts parallel with boost::python
+C++ linked-list traversal
+Writing a function to allocate an upper triangular matrix
+EOFError when running subprocess with fabric
+How to easily create a parser for custom formatted data in Python
+Is C++ not a fully OOP Language?
+Will else-is resolve if the if statement above it is chosen?
+OpenGL 3: glBindVertexArray invalidates GL_ELEMENT_ARRAY_BUFFER
+Application that zooms to a specific part of the desktop
+New to python Creating two Dictionaries from a file need specific lines
+Two classes in a larger class share data
+Why do I get uninitialized-value warnings from Valgrind when I use Boost UUID?
+Opengl linux undefined reference to basic functions
+Running apschduler in Python script as a daemon?
+What's the best way of implementation QProcess, which reading stdout and stderr in &quot;real time&quot;?
+Why doesn't this throw a SyntaxError instead of silently interpreting it wrong?
+Changing MySQL checks from 'programside' to the MySQL server itself
+Menu Bar Appears 50% of the Time, wxPython, Ubuntu 11.10, Python 2.7, wxPython 2.8 GTK2
+Will two programs using SqlAlchemy conflict when trying to access the same table (SQLite)?
+List Slicing python
+What is an example program that realizes a performance gain by calling _mm_stream_si64x()?
+Is there a Perl or Python library for ID3 metadata?
+dc.LineTo not drawing on OnPaint() unless I move the use the mouse and move the window out of view?
+Trying to define a static constant variable in a class
+how to force base class constructors to be called in derived classes?
+python pdf line by line
+Parsing text in python issue
+C++ Vector Arrays in Copy Constructors
+how to compile this logic in visual C++ express 2010
+&quot;Connecting&quot; SDL_Surface to shared_ptr
+Error C2593: Operator = is ambiguous
+sqlite db called from flask only returns variables, not values
+simplify appending domain to filenames in python
+std::thread with movable, non-copyable argument
+Type(3,) returns an integer instead of a tuple in python, why?
+Image resizing web service
+libxml - Load xmlDoc from raw data
+print and count the number of permutation (without using stl next_permutation)
+Getting a field from an STL map iterator
+typecasting with virtual functions
+What is the Windows registered class of a Java window?
+C++ MFC - Sharing data between MFC DLL and WTL exec
+Array input/output problems?
+What python's Pandas data struts used for?
+Generating a unique data store key from a federated identity
+Parsing something similar to C++
+Volatile variable in class: &quot;expected unqualified-id before 'volatile'&quot;?
+C++ makefile multiple headers one cpp
+boost::signals2 slot as a non-static function member?
+How to run a Python script portably without specifying its full path
+Macroized Parameters
+How to run a task in Python after 60 second but only one time
+how to design threading for many short tasks
+Counting 1s in the two's complement representations of integers in range[x,y]
+Making a custom message box using tinter
+How to install which programs requires &quot;sudo&quot; in virtualenv?
+Simple loop, which one I would get more performance and which one is recommended? defining a variable inside a loop or outside of it?
+Missing Source Files in Code::Blocks?
+Validating date (both format and value)
+Is there a better way to sentinel against empty lists in Python 3?
+Inspecting c++ libraries for different stl linkage to track down std::vector destructor crash on gcc/osx?
+wxPython application completely invisible in OSX
+replace substring None with 'None'
+Strings variations in python - what do they mean?
+need to ssh to remote machine from web page with python/django
+Doctest's output different from shell's output
+Structure Initialization Unmatched variables
+Defining a dict with a tuple singleton key
+find and replace versions in a specific block
+C++ Operator Overload Error
+Calculating round trip distance in python
+Is there a faster way to detect object type at runtime than using dynamic_cast?
+MACRO expansion to block of preprocessors
+How to better handle a class member type that depends on template parameters?
+Generating random unsigned char values in C++
+How to slice a deque?
+Python &quot;run&quot; and &quot;reload&quot; not showing the changes to my code
+What is an efficient way in pandas to do summaryBy(...,full.dimension=T)
+inserting data into google app engine datastore
+Python determinant calculation(without the use of external libraries)
+Vector Iterators Incompatible (Segmentation Fault)
+Is there such thing as File name or handle to write to console?
+What is actually applying a filter?
+in VS2010: how can i make [tab] [tab] snippet shortcut work on .CPP files?
+c++ exception handling pass by reference : thrown address is different from caught address?
+array&lt;System::Object^&gt;^ temp0 = {&quot;Test&quot;,&quot;Test2&quot;}; how to create a new instance to populate it later
+Using partial to create slots for signals with return values in PyQt
+Boost serialization problem
+__init__(self, list=[]) only makes one list rather than a new one for every instantiation?
+Open cmd in full screen
+Python - Print on stdout on a &quot;terminal&quot;
+Updating a value for every cell in a grid every turn takes too much time. (Ants, AIChallenge.org)
+Python procedure to populate dictionary from data in 2 separate lists
+How to get ride of console box of a GUI program compile by MinGW + Code::Block
+Dictionary that has lists in keys, how to print so that the KEY with the least values in the list gets printed first?
+How does Python distinguish callback function which is a member of a class?
+HTTP server hangs while accepting packets
+Error monad in Python - did I do it right?
+What's the proper way to run some Python code asynchronously?
+Windows Service issue
+Side by Side manifest issue with VS2005 &amp; VS2008
+C++ explicit conversion and implicit conversion
+How to dynamic assign a global 2d array in C++
+Python GTK Issue
+Searching a string and returning only things I specify
+Opengl Camera and multiplying matrixes
+Sort a dictionary according to the lists size and then alphabetically by their key in Python?
+Programmatically importing works on Windows, but not on Linux
+Editor with support for mixed spaces and tabs?
+How to add Login/Logout link (Django)
+What does (char)0 mean in c++?
+Layout in Win32 GUI program
+Unable to access Ssl error list from QNetworkAccessManager
+Getting a substring of a `std::string` between two iterators
+native unit test, debugger performing a remote operation that is taking longer than expected
+Subcategories of wikipedia pages
+Concatenating Two FASTA Files in C++
+Numpy and Python
+run django with xampp on windows
+C++ : Functors and std::function for a noob
+Template matrix expression with known matrices
+list() doesn't work in Google App Engine?
+Erorr: no operator &quot;&gt;&gt;&quot; matches these arguments
+Python-Need to turn this into a loop so it look like my picture?
+Interactive Brokers automated trading
+Why are string literals l-value while all other literals are r-value?
+lxml module cannot be found
+C equivalent to python pickle (object serialization)?
+c++ programming
+How do I use my own loop with pyhook instead of pumpMessages()?
+Possible to disable a hook made with SetWindowsHookEx run-time?
+My memory leak in C++ program
+How to use pause method in pyglet package
+Python - Classes and OOP Basics
+How do I setup pyramid_beaker for a sessions &amp; login system?
+The Python &quot;is&quot; statement and tuples
+dynamically change the size of an array c++
+Public Private Key Encryption Tutorials
+VBO and glTranslatef does gl_vertex in GLSL shader need to be multiplied with something?
+In Python 3.2, is &quot;lambda&quot; considered a &quot;keyword,&quot; an &quot;operator&quot; or both?
+Counter variable for class
+gevent urllib is slow
+Retaining order while using Python's set difference
+Is there an option to configure a priority in memcached? (Similiar to Expiry)
+Why am I getting an IndexError: string index out of range?
+C++ does list.unique() resize the list?
+Creating cx_Freeze exe with Numpy for Python
+Smart print of complex arrays
+Why does my program crash at the return statement?
+have python process run similar to how redis process does (in the background)
+Can I stop COM from swallowing uncaught C++ exceptions in the callee process?
+Server Client Communication Python
+Hide a CDialogImpl dialog when user cancels
+How to programmatically create/build up a CTabCtrl?
+django-model-utils, inheritance and templates
+How do you set GDB debug flag with cmake?
+How python logging get it's configuration
+Windows forms application in VS2010 WITHOUT .NET?
+Use of : Construction of objects at predetermined location in C++
+How to remove the boundary effects arising due to zero padding in scipy/numpy fft?
+string formatting for python 2.5
+Is there any need to create my own buffer for file I/O operations in C/C++?
+Crash while using memcpy?
+Migrating C# to Python - Random class
+Can inherited class change type of elements in base class
+Python MySQL: Not showing inserted records
+Query ManyToMany relations without a named through field
+Insert data into Hbase using Stargate Rest
+Creating a corpus from data in a custom format
+How to host a WCF service in native C++ program
+Python (Windows XP) - wx.FileDialog partially remains after Destroy()
+read text file column wise c++
+Sending stucture containing mutable string to C from Python thru ctypes
+How to stop mfc dialog application from closing by pressing ESC
+Using a C++ class member function as a C callback function
+Eclipse C++ project not building: Constructor Destructor Issue
+Overdrawing on the toolbar? Alternative idea?
+Migrate users from Google App Engine to Google OpenID
+heap corruption when leaving scope with unique_ptr
+std::string::c_str() and temporaries
+Can I provide several defaults for a template member function?
+Python string comparison similarity
+matplotlib: Creating two (stacked) subplots with SHARED X axis but SEPARATE Y axis values
+package existing egg into other egg using setup tools
+Random number generation and parallelization c++/Qt
+barrowing function across c++ libraries (newbie)
+How to programmatically create a CDialog window?
+How do I mock a method which uses elementree methods for parsing xml
+c cast in c++, compile time or run time?
+Why doesn't printf format unicode parameters?
+Snippet/lib that handles command line arguments parsing/validation
+Send keys not working in selenium with python
+SQLlite for &quot;Save as&quot; and Auto-save feature for a LARGE file
+Running a C# from win32 C++ with /clr support
+Sorting in Sparse Matrix
+Room-saving alternative for QR-Codes?
+type_info doesn't account for cv qualifiers: is this right?
+All the members of my array are at the same memory location when they were created using new()
+Is it ok to assign this to a static pointer in constructor as in example here
+Python libmysqlclient segfault (MySQLdb)
+Not updating coordinate positions?
+C++ pass an array by reference
+Assigning an array size depending on a condition
+How to flatten a fish eye picture (with python)?
+No source for msvcr100d.dll!__CrtDumpMemoryLeaks()
+Creating an ICMP traceroute in Python
+Which protocol to use if I am writing a multiplayer game server with Twisted?
+Sample from Multivariate normal distribution using Boost
+Global name 'RegistrationForm' is not defined
+Client Server application with PHP and Python
+Where is my server side GUI?!(using pyqt)should I use thread?
+linked list union
+Converting ascii substr to int
+Is `std::function` allowed to move its arguments?
+Python Base64 string shorter than Botan Base64 string
+How to write test cases for assignment
+file processing in C++
+C++ Design pattern for separate accessor/mutator interfaces
+Reading from .txt
+Python - substitute inplace - removing .bak backup files with close()?
+Why is the counter incrementing?
+invalid use of template-name without an argument list
+Array change in C++ function is not preserved in C#
+How to keep a Python script output window open?
+Is it possible to forbid deriving from a class at compile time?
+Using string library in C++
+How does the g++ implementation handle this situation?
+How can I substract two FILETIMEs?
+Linker errors creating QLabel with doubleclick event
+GroupBy functions in Python Pandas like SUM(col_1*col_2), weighted average etc
+Constants in cherrypy configuration file
+parse URL with regex in python
+Using Ivy/Maven for C++ binary dependancy management in Visual C++ environment
+Python function won't start
+Accessing objects that aren't bound to a variable in Python
+c++ static method with struct parametrs
+How to install the py2exe modul in Linux
+In google app engine, how to check if a model is empty or not?
+Biopython (or just Python in general): Most Efficient Way to Parse Species Name From A large .fasta file using gi identifier
+Django split Models in différents models.py files give me import loops
+Python - dealing with mixed-encoding files
+C++ - Check if TCHAR array is empty
+Query std::ostringstream content
+appengine ndb init model by kind name
+How can i embed NULL character inside string in C++?
+Easy_install's --prefix option doesn't change where it tries to install my package
+Digital filter and std::inner_product optimization
+How to document class attributes with NaturalDocs
+Constantly lag in opengl application
+How to link google protobuf libraries via cmake on linux?
+Handle plot with Tkinter
+Does apache have the equivalent to asp.net httpcontext.cache and output cache?
+Python and Floats - Print only the Whole Number
+STL string comparison functor
+Creating dynamic images with WSGI, no files involved
+Valgrind leak detection with segfault
+UnicodeDecodeError when using pymssql with freetds
+Understanding parameter handling in a python memoization decorator
+Initialization order of static data inside class template
+C++ Framework for creating servers?
+how to receive the large data using recv()?
+python numpy arange unexpected results
+C++ underflow and overflow
+Link error LNK2005 several CUDA files
+Encode Method for games packages?
+Using OWdotNET.dll in pythonnet (python for .NET)
+Using a namespace twice
+C++ Compile-Time Conditional Run-Time Statements
+python curl urllib2 source interface address
+Exploring a maze (using python 2.7)
+While loop and Python with NAO
+What tool exists to compile C++2011 code for Windows target?
+How to get NaN when I divide by zero
+Simplest way to create a threadpool in C++?
+Sort a gtk.TreeColumn by date value
+OpenCV 2.1: where is ostream operator&lt;&lt; for cv::Mat?
+Trouble with using boost::bind &amp; boost::function
+Fail to return a derived class pointer when overriding a virtual method
+efficiently subtract item in list from its sibling
+Django: AttributeError when calling own model method
+Use C# properties in unmanaged C++ code
+C++ passage by pointer and modification of values
+How to gather personal information (age,gender..) of all the authors of the comments on a specific video, with Python YouTube API
+Check the memory location of a multi-dimensional array C++
+How to assert that a method is decorated with python unittest?
+Python C API: how to get string representation of exception?
+Difference between iterating over a file-like and calling readline
+Creating xml from MySQL query with Python and lxml
+How to implement Depth of Field in Ray Tracer?
+Python 2.7 encoding and feedparser
+getting boost::program_options to treat input as const char* instead of std::string
+How to create an array with reference member in C++?
+push_back issue std::vector
+What is the C++ equivalent of this Perl code that uses sprintf?
+Why can't I send a mail to myself using python smtplib?
+std::make_shared number of parameters in the constructor
+unwanted multiple template class instantiate throug multiple DLLs
+&quot;BadValueError: Property category is required&quot; on GAE
+How to generate a &quot;big&quot; random number in Python?
+how do i enforce precision on a string containing a double value in c++
+Efficiently listening on multiple sockets even when file descriptors are not available
+Optimum Python Environment setup on Windows... Any better Advice?
+Building Boost on OpenVMs
+Automated way to switch from epydoc's docstring formatting to sphinx docstring formatting?
+save the list when processing more than one files python
+Python find min &amp; max of two lists
+Fastest way to process large files in Python
+array of size 1 MB
+How to convert wchar_t[] to basic_string&lt;_Elem&gt;?
+Detecting endianness programmatically in a C++ program
+Django Class Based View - unexpected decorator behaviour
+Safety of sharing Lua scripts
+std::vector vs normal array
+How can i construct BSTR with embedded NULL character in c++?
+How to escape special regex characters in a string?
+Viewing Win32 messages
+Getting First digit in double and storing it in an int C++
+Is it safe to assign a _bstr_t com property a LPCTSTR?
+Handling an empty string - Python
+Error C2668 ambiguous call to overloaded function code from site http://h264bitstream.sourceforge.net/
+Strcpy does not copy an allocated character array
+when c++ standard introduces the suppose of the syntax `vector&lt;vector&lt;int&gt;&gt;` (i.e. `&gt;&gt;` in the end?
+Undo / Reset AllowSetForegroundWindow() calls
+c++ Algorithm to convert an integer into an array of bool
+C++ - Undefined reference to a class recently created !
+Trying to make a C++ (MFC) code snippet easy to reuse . What are the options?
+Log-Likelihood Ratio statistic by PyLucene
+Are there any large projects which use Python 2/3 compatible source as a porting strategy?
+Using web-server to substitute for GUI in python
+Python 3.1 server-side can't output Unicode string to client
+Library compatibility between C++11 and C++03
+Python type as a string
+How to define a function with same name which is present in different file
+How to Move a Sprite in Pygame
+Bool always evaluating as true
+How to increase size of sip qwerty keyboard on windows mobile 6.53? (VC++)
+How to determine end of call stack?
+Add a program that requires Adminstrator to STARTUP
+DirectX Rendering
+Python Threads Hang
+Using CppUnit for memory leak detection
+Python - open pdf file to specific page/section
+Finding the average of a matrix
+loop logic, encrypting array C++
+Objective-C - Disadvantages to Bridging With C++?
+build tuple using variadic templates
+missing ';' before '&lt;'
+Python: Why does list import using quotation marks, how can I avoid this/get rid of them?
+Using GNU C++ built library in VS C++ project
+C++ Win32 : Attach a child window to main window
+OpenMP to Distributed Memory Code
+How to access the info known by matplotlib.backends.backend_qt4agg.NavigationToolbar2QTAgg
+Pointers in C# and how frequently it is used in the application?
+How you create a datetime index in pandas
+Size of a directory
+C++ QueryPerformanceCounter more accurate than sleep?
+Linking C++ code with 'gcc' (without g++)
+mkdir, pathname with symbol
+How do I concatenate files in Python?
+How to: add a class docstring with Eclipse/Pydev via keyboard shortcut?
+Options for a message passing system for a game
+Namespace confusion using C++/CLI in Windows Forms Application
+How to exclude a field within a [vanilla django] form?
+index python dictionary by value
+Memory scanner with a slow scan
+How to make 'not contains' regular expression
+Type inference for templatefunctions with templated parameters
+Python class to merge sorted files, how can this be improved?
+C++ - the fastest integer type?
+C++ encrypting ascii value printing return key from array
+FFmpeg AVPacket control
+datatype exception in simple GAE form using datastore
+cout a boost::range of elements
+Running Satchmo Store
+threading.Event wait function not signaled when subclassing Process class
+Cannot have typeof(std::endl) as template parameter?
+Time based event handling
+Django-admin.py producing errors on my shared hosting environment
+Random numbers on unsigned chars keeps being '?'
+Lowpass FIR Filter with FFT Convolution - Overlap add, why and how
+Why are there extra blank lines in my python program output?
+Python Multiprocessing: How to add or change number of processes in a pool
+Replace the same string several times with different strings in a file using bash
+How can I pass an array from perl to inline C++?
+Many to many SQL generation statements in Django 1.4
+C++ Creating &amp; Using Class
+Array division- translating from MATLAB to Python
+Convert numpy array to tuple
+Can I write C++ code without headers (repetitive function declarations)?
+Which lib do I import to use create_shortcut() in Python?
+nginx with flask and memcached returns some garbled characters
+Grouping a list of integers with nearest values
+inheritance, scope, and template constructors in c++
+CX0030: Error: Expression cannot be evaluated
+Qt creator, error message
+Trying to match two images using sift in OpenCv, but too many matches
+Save Naive Bayes Trained Classifier in NLTK
+Removing a list of characters in string
+How can I prevent a QTextArea from being erased?
+Detecting AC Power connection in WinPE?
+Is anyone using zeromq to coordinate multiple Python interpreters in the same process?
+Thread-safe initialization of atomic variable in C++
+How To Reversibly Store Password With Python On Linux?
+making a QToolButton checked with a QMenu
+Python Tkinter Unhandled Exception In Thread Started by &lt;function main_thread at ...&gt;
+Explicitly initializing vector of pointers results in conversion error?
+Maximizing apache server instances with large mod_wsgi application
+Specialize template based on positivity of argument
+Can you make an Objective-C++ subclass of a C++ class
+Where can I find proper examples of the PEP 257 Docstring Conventions?
+Daily File maintenance Job in C/C++
+How to put variables on the stack/context in Python
+How to build a simple HTTP POST server?
+Matplotlib markers disappear when edgecolor = 'none'
+How to override an async NDB method and write your own tasklet
+How to index with a list of values with only one label in a Pandas MultiIndex
+Failed to write to file but generates no Error
+Index method in Django's Template
+How can I detect total MySQL server death from Python?
+GTK 3 transparent label with text placed over image
+How to increase stack size in Bloodshed Dev-C++?
+FORTRAN77 function returns an array
+PHP executing script in subfolder
+python basics - I am trying to write a function which takes a string(a month) as an input and returns the amount of days in the month
+Unicode error when outputting python script output to file
+Trying to create a vector of objects
+c++ std::bind keeping object alive
+Python : helper function confusion
+PYTHONPATH ignored
+Accurate binary image classification
+How to unescape HTML characters when encoding JSON with Python
+django ORM Foreign Key Data in Database not populated to the Model
+C++\cli Check if file can be created here, FolderBrowseDialog
+Ember custom(own) protocol into UDP
+Python: find closest string (from a list) to another string
+Showing progress of python's XML parser when loading a huge file
+How use sql &quot;like&quot; in PyMongo?
+How does the order of mixins affect the derived class?
+How do I create a canvas selection tool?
+Page layout API for C++
+Determining if a number evenly divides by 25, Python
+Python assert statement and code reusability
+Use of `ofstream` appears not to create nor write to file
+Garbage bits in the floating point representation of numbers in C/C++ program
+Generating a remapped numpy array as a view.
+Reading URLs Asynchronously in Google App Engine
+The future of C++ alignment: passing by value?
+Qt socket write segmentation fault
+Decode base64 string in python 3 (with lxml or not)
+IntegrityError when rendering and won't take the Autocomplete value
+could you tell me why does this code crash?
+Django: app with label XYZ could not be found. Are you sure your INSTALLED_APPS setting is correct?
+Python: is the &quot;old&quot; memory free'd when a variable is assigned new content?
+Usage of sys.stdout.flush() method
+C++ - extremely strange machine code behaviour
+setting a c++ application to use maximum CPU usage, in the code
+Binary serialization of variable length data and zero length arrays, is it safe?
+Inserting into a map of member function pointers
+Search HTML line by line with regex in Python
+Efficiently organizing data into a readable .csv format
+Windows C++ nanosecond timing?
+std::string Array Element Access
+Extracting a specific string out an HTML document
+Deactivating pythonbrew from a bash script
+What is the best approach for creating an agent framework in python for flexible script distribution and data collection
+Using setuptools with install parameters
+User login overwrites user fields
+Installing Python c-extensions with buildout
+Receive NMEA0183 data from COM PORT C++
+Django mysql error
+Compilation fail in Boost librairies (program_options)
+Trouble linking libusb using Cmake
+Sorting two linked lists according to memory location
+From wstring to SQLCHAR
+C# Application crashes on method call to COM Class
+Concat strings in SQL Server and Oracle with the same unmodified query
+Printing text to row and column coordinates in Python?
+ANSI Escape Sequences Fail in Cygwin
+Make Python stop emitting a carriage return when writing newlines to sys.stdout
+Python &quot;classobj&quot; error
+Generating random sequences of bits
+How to get mod_python site to allow clients to cache selected image content?
+Completely locking down Windows 7 using Python 3.2?
+CSV Columns to Arrays in Python
+ImportError: no module named templates on Google App Engine with Web.py DESPITE having compiled templates
+In python, detect type, then cast to that type
+Terrible Serial Port / USB code (C++) - suggestions for fixes?
+libconfig not static linkage. how to compile into program
+pygame is not working
+Display large dataset from Sqlite database in Python wx
+Django Model use of keyword IN
+How can I describe a Python object, and what is the relationship between attributes, identity, type and value?
+How to resample a dataframe with different functions applied to each column?
+Is there a work around for invalid octal digit in an array?
+Screen capture from windows service
+Is there any way of stopping _popen opening a dos window?
+Passing Commands To Python From PHP
+Python NLTK Maximum Entropy Classifier Error
+Handle sys.exit() in cherrypy service
+Python: IMAP connect to gmail returns errors
+How to use re.compile to search for strings with common areas in the middle
+time.clock and time.strftime Give Totally Different Results
+Invalid Write of Size 8 at first line in class constructor
+Positioning of classes in UML diagram
+How to create a grammar to the following data using Pyparsing
+Crash/Segfault in calling virtual member of subclass
+How do I instantiate a StandardAnalyzer in pylucene 3.5? Where is the Version object?
+Creating a popup message box with an Entry field
+Fmod include errors
+Integrating scientific python into an existing Rails webapp
+How to create an Object from a Generic class in C++?
+Initializing std::auto_ptr: &quot;error: no match for call to ‘(std::auto_ptr&lt;int&gt;) (int*)’&quot;
+Markdown to LaTeX in Python
+Python/Cherrypy processing file upload from Kwargs. Instance type not indexable. Trying to dump FieldStorage data
+member function pointers and inheritance
+What is the standard way to add N seconds to datetime.time in Python?
+DllImport for C# (original is in C++/CLI) Need to output arrays
+C++ Link Error with namespaces and include files
+SQLite Database structure for image library
+Can bin() be overloaded like oct() and hex() in Python 2.6?
+Simple code is displaying absurdly large numbers...?
+Dialog Class doesn't let me interact with CButton on the dialog?
+Binary Search Tree issue
+Where do I get pymssql for a python script
+What is Heap Sorting and Priority Queue?
+Increasing Optimization Level g++
+C++/CLI LoadLibrary Failing on Converting System::String to LPCWSTR and const char cmake-build-debug CMakeLists.txt data debug.log Examen.aux Examen IR jan 2018.pdf Examen IR jan 2019 - Solutions.pdf Examen IR jan 2020.pdf Examen.log Examen.synctex.gz Examen.tex exec index Information_Retrieval.exe irbookonlinereading.pdf line lucene-8.4.0 lucene-8.4.0.tgz main.cpp processed processed.zip Project project1(1).pdf script.sh test tinyXML titles.txt verslag.aux verslag.log verslag.pdf verslag.synctex.gz verslag.tex
+Why I get 'dict' has no attribute 'sort' error in my concordance program in Python
+Write applications in C or C++ for Android?
+Gomoku (5-In-a-row) Computer Logic
+File system libraries that allow mounting on an application level
+Length of 'char* numberlist[]' in C and C++
+python django subtract timedelta object from datetime object?
+Code Synthesis XSD parsing/data binding xml string instead of xml file
+Django Tastypie Advanced Filtering: How to do complex lookups with Q objects
+What conditions result in an opened, nonblocking named pipe (fifo) being &quot;unavailable&quot; for reads?
+Interpreting session activity
+Solving integer constrained optimization problems
+Apache equivalent of runserver view
+Make the random module thread-safe in Python
+Using Eigen Library in Netbeans
+What is a generative method?
+Referencing const objects/pointers in C++
+Classes Inside Modules
+How to convert u_char* to char[] in C
+How to debug indentation errors in python
+Is it possible to freeze all threads when one thread encounters an exception
+C++ Template Copy Constructor Deep Copy
+Executing raw SQL against SQLite with Django results in `DatabaseError: near &quot;?&quot;: syntax error`
+Will default arguments at an arbitrary point in the argument list ever be possible?
+Why should one use std::string over c-style strings in C++?
+Control a subprocess (specifically gdb) in multiple ways
+How to build boost required modules only?
+Facepy unable to upload image to Facebook
+Tools for finding unused function declarations?
+Error While Opening .pyc Files
+Database localization (multilingual) design for Python/Django
+Internal linkage for const in C++, yet I get duplicate symbols
+Doubts on char* list[] with return length C and C++
+How do I set the WINDOWCLASSX hbrBackground alpha channel? (C++)
+overload += in python for a mapping type
+Why does my Python inheritance/super example not work?
+C++: Reference counting values in a std::map; is std::multimap a better choice?
+Wrap String with For Loop or If Statement
+Unregister a test case in Google Test
+Cannot import qgis.core to python
+Having issue in configuring boost with codeblocks
+How to create an error loop that will restrict the user to only input a number and a decimal point.
+Calls to the FreeSid() function crashes my MFC application on Windows 7
+How to run my web2py application from facebook?
+std::function with non-static member functions
+How to make a selection PyMongo only unique records?
+Make changes persistent in Boto
+Can't install BeautifulSoup in Eclipse on Mac
+if a in list (I want to add something to the element in list) Python
+c++ arrays vs pointers
+Reading the month part in the date in c++
+Can I switch around this function vanilla.count()
+Allocating 32-bit integer arrays in 64-bit machines
+Application crashes even when using a try..catch block
+Extracting items out of a QueryDict
+python input being read wrong?
+Merging data in 2 or more TCP/IP Packets
+How to lookup mib-table in pysnmp?
+Available screen size on Linux in Qt 3
+Python File Download
+WinSock closesocket() call takes one second on some computers
+Manipulating blobs in C++
+How to reinitialize native code in managed dll
+Notifying user of Access Violation like Exceptions
+Are the boost socket read and write functions thread safe?
+C++: Reference to dynamic memory
+QComboBox EventFilter to popup
+Qt4.7 -- &quot;QtCore/QFile: No such file or directory&quot;
+c++ iostream - output file is not created
+Cpp - Check if key exist in boost bimap
+C++ IOStream Operator Overload Error
+Getting error &lt;type 'exceptions.ImportError'&gt; No module named modules.facebook
+how to add the chart/graph to worksheet/excelsheet using python
+Sending keyboard input over UDP in network game
+c++ simple program error
+fstream | Read write operation works neither good nor bad | Read write to big files
+vector not access from vc++2010 App same code works fine in Qt App
+Minimizing DB hits in Django: .values_list() dependent on previous .filter() clause
+Python 2.5 interpreter is throwing a PyNoAppError when I run &gt;&gt;&gt;&gt; help('modules')
+A new form for each dialog in c++?
+How can I get a window handle of the CWnd object in Delphi?
+Python search filenames in subfolders using regex and append to list for further use
+Automatically Insert file-modification-time after @date command
+How to get list of objects with unique attribute
+C++ &quot;Virtual functions but no virtual destructors&quot;
+Singleton Synchronization C++
+Python on different computers report failed assertion differently
+extern variable linking failure inside a static library
+How is C++'s multiple inheritance implemented?
+open('output1.txt', 'w').write(&quot;Hello guys&quot;) versus openvar.write(&quot;Hello guys&quot;)
+python calling external programs without opening console (dos prompt)
+&quot;List iterators incompatible&quot; when trying to erase an element from the list
+&quot;Cannot open include file: 'ofstream'&quot; error in Visual Studio 2010 Express Edition?
+Anyone have the algorithm for determine if a hand of Mahjong game wins or not?
+Good book on drawing algorithms, preferably in C or C++
+Unable to generate call to cell phone using asterisk
+How can I capture output from the Windows cmd shell?
+Linear Search in Linked List [Language: C++ Compiler: Dev-Cpp 4.9.9.2]
+Improvements to C++/CLI in .NET framework releases
+How is memory allocated for empty list, tuple, dictionary?
+How to cast properly? (Or should I even do it?)
+Making a contiguous matrix variable using STL container
+Find a number not in a set
+How can I denote unused function arguments?
+pylint reports _ as not callable
+PDF App Engine Conversion
+Import XML dictionary in Python
+Why doesn't this singleton pattern work?
+Getting distutils to install prebuilt compiled libraries?
+How to create virtual Environment for users on server
+os.path.abspath('file1.txt') doesn't return the correct path
+Can I use the Curiously Recurring Template Pattern here (C++)?
+How to do regex replacement in Python using dictionary values, where the key is another matched object from the same string
+What's the &quot;correct&quot; way to pass an empty vector to an object?
+How to terminate using getline()
+android remote python scripting in vim
+Access to office 2003 files
+what c++ norme i'm currently using?
+Unable to install boto in python3
+How to improve speed when drawing over 50k sphere with Opengl
+Generating PDF using xhtml2pdf in landscape mode
+Is it possible to call derived class functions from Base class
+Automate SSH login under windows
+Getting ‘m_Mutex’ declared as reference but not initialized error
+QFuture throwing unhandled exception in result()
+storing a json file from twitter's api in mongoDB
+How to flood-fill part of a bitmap enclosed by a black border with my chosen color?
+Efficient way to perform xml parsing in python
+How to correctly install ffmpeg on windows XP?
+Define rectangle as two points or origin / size?
+How to call overloading functions from the base class (not abstract)?
+Python robotparser module won't load 'robots.txt'
+Defining and declaring the functions/methods in the c++ .h file
+Getting transformed vertices back from the GPU in DirectX 10/11
+Handling B64 encoded data in Python
+Using JSON keys as attributes in nested JSON
+How to quicky create array from big file?
+Why can't I have an auto_ptr in an Exception class
+Resolve circular import error in python
+Transform a vector&lt;vector&lt;Point&gt; &gt; X into a IplImage* or cv::Mat*
+Virtual Inheritance and dreaded diamond
+Inserting data from qt to postgres database error
+Quicksort Algorithm (Recursion)
+Reading a file one int at a time in C++
+How to overwrite a imported python class for all calls
+python argparse to handle arbitrary numeric options (like HEAD(1))
+Logging module name/line of one stack level higher in Python
+C++ Constructor Understanding
+Installing Pandas with Python 2.5 on Windows
+dereference a pointer -vs- &amp;-operator
+Is there any project/set of libraries that make it easy to comunicate between various programming languages/platforms?
+Fingerprint matching/recognition algorithms/implementations
+How to get client real ip-address and port using IOCP?
+Assign calculated value to variable within generator expression?
+django fastcgi can't run
+Interruptible sleep in Qt?
+Calibrate single camera using OpenCV 2.3.1 and C++
+Python code to send command through command line
+boost asio: How to monitor that a tcp connection is alive
+how to add new fonts to pyfpdf
+Lots of LNK2005 errors
+pygtk loading a flow of image in only one pixbuf
+Python tarfile size
+accessing dictionary with classes
+Calling derived class function from base class function
+how to make more expressive python iterators? just like c++ iterator
+Opening files in a directory with python, trouble with encoding
+EC2 python file not showing html
+Retrieve Handle to Windows Explorer's Address bar Edit Control
+How to write UTF-8 file with fprintf in C++
+Maximum size for multiprocessing.Queue item?
+looping problems in c++
+Cuda kernel functions in multiple files
+Python 3: Using a multiprocessing queue for logging
+How to compare two patterns efficiently in C++
+Recognizing ffmpeg's rtsp disconnecting
+How can I easily format the date fields of my GQLQuery to another Timezone?
+Is it valid to define a pure virtual signal in C++/Qt?
+How to determine whether a polygon is inside other one?
+C++ : Meaning of const char*const*
+django multiple sites wsgi is enough?
+opencv assertion (general)
+Python - How to get the Firefox's URL bar content in GNU/Linux?
+Python why doesn't writing a contextmanager for an sqlite3 cursor work?
+libmemcached fail over of a cluster's node
+Which gcc and g++ version support which standard of c and c++?
+Python Challenge Level 2
+Deducing the value of a template's non-typename argument
+Large Sqlite database search
+Python implementation of the Wilson Score Interval?
+C++ Template limited to a base class and its derived classes
+How can I sum an interval of elements on an array in python / numpy?
+how to read formulas with xlrd
+C++ Builder XE - publishing array property
+File descriptors redirecting is stuck
+How to transform an English Gmail imap date to a French date format
+Persistent references in Python
+Determine a JDK install directory through Python
+C++ pass by reference - can this be done?
+Call C++ Dll in C#.net using dllImport
+How can I analyze Python code to identify problematic areas?
+Use &quot;contains&quot; and &quot;iexact&quot; at the same query in DJANGO
+Converting Python Programs into Assembly IEEE 694
+What Windows C++ IDEs support the new C++0X standard?
+C++ overloading + operator not working
+rpy + matplotlib + arcpy
+IsFinite() equivalent
+Boost::Python Forward Declaration of boost::python::object throwing python TypeError
+C/C++ code 2nd = sign in operation
+How do I output a config value in a Sphinx .rst file?
+Multimedia timer? &lt;mmsystem.h&gt;
+Amp Library Error
+How to convert (inherit) parent to child class?
+Why does a call to BeginPaint() always generate a WM_NCPAINT message?
+c++: how to optimize IO?
+Can a BNF handle forward consumption?
+Writing tests for stochastic functions
+Replace char in string with some string inplace
+#define directive with multiple replacements?
+name of upload files
+XML bindings for Microsoft XMLLite
+Writing an integer as hex into a File using ofstream
+Visual Studio 2010 call stack window stripping template parameter types
+Windows short path format to long path format
+regsvr32 causes CDatabase destrucor to hang when using SQL Native Client (v2005)
+Resolving LNK2005 with a C, C++, and C++/CLI project
+Prevent QTable from selecting all text on edit
+Taskbar programming
+NetUserGetInfo doesn't work for trusted domain
+python web framework large project
+Rules for implicit conversion of template arguments
+Makefile doesn't work
+Can a python IDLE be used for iterative/in-memory development?
+Python Frequency Distribution (FreqDist / NLTK) Issue
+Python: how do I match the string - only if the next line has a given string?
+Scrapy spider doesn't release items memory
+What's a C# equivalent of hexdigest in Python 3.2?
+How to write simple geometric shapes into numpy arrays
+Purpose &amp; Tutorial for how we make customized usage of `std::iterator`
+CBS_DROPDOWNLIST combo fails to respond to WM_CTLCOLOR... under Windows UX theming
+How to determine scaling factor so that covariance matrix has a first element of 1?
+EXIF metadata removal in python
+how do i make an api call in python (GAE)?
+Microseconds timer with Carbon framework
+TypeError: 'int' object is unsubscriptable - python
+Cant import dll in C++ application
+Not locking mutex for pthread_cond_timedwait and pthread_cond_signal ( on Linux )
+Google Protocol Buffers, backward reposition IO head in the stream objects provided
+What are the pros and cons of writing C#/XAML vs. C++/XAML WinRT applications in Windows8?
+Trouble using django.template Context in unittest
+How to extend the functionality of the functools.wraps decorator?
+reproduce unicode error in django
+Non-static parameter inside a static function
+Android Back End Technology - Language (Java, Python) &amp; IDE (CoderBuddy, exo Cloud, Cloud 9)
+DirectShow and openCV. Read video file and process
+Vector iterator not dereferencable (vector inside vector)
+Trouble with file input [C++]
+rand changes value without changing seed
+Incomplete types/ forward declaration / compilation understanding needed
+How do I forward declare a class derived from a forward declared template base class?
+regexp: tw- prefixed words with optional quotation marks
+file.get() returning random numbers after a loop C++
+solving dynamic number of non-linear equations in python
+App Engine Datastore IN Operator - how to use?
+python named arguments auto-naming
+ATL VS C++ 2010
+QTableView float precision
+How do you change the output of mocked methods, using the Mock framework?
+Using MongoDB as a persistent Hashtable
+How to create ellipse shapes in box2d?
+Partial Regex matching in Python 3.2
+How to make a numpy recarray with datatypes (datetime,float)?
+How to build a python package into an exe
+QtConcurrent with static member function
+Python - Continue Code Execution After Popping Up MsgBox?
+error LNK2001: unresolved external symbol with DLL
+Number of visitors in Django
+Authenticate with sudo on a crontab job
+Python. Unchroot directory
+Why does the program keep going, when I tell it to stop?
+What exactly does C++ profiling (google cpu perf tools) measure?
+C++11 Lambda Expressions as Callback Functions
+What is the meaning of the below sentence in c++
+Dynamically adding menuStrip items
+Loop through an image with a mask in openCV
+std::sort is slow with small amounts of data
+Image caching loop goes wrong for my recipe searching program (daemon)
+C++ Expose Already Existing Instance of Objects to a Scripting Language
+C++ Error 'nullptr was not declared in this scope' in Eclipse IDE
+How to apply the output of python's difflib.unified_diff to the original string?
+C++ set iterator removal
+Qt Creator, call a function
+Dereference operator gives different results than array offset operator with void*
+Complete C++ i18n gettext() &quot;hello world&quot; example
+Writing to Serial Port (C++/Windows)
+Python Video Framework
+Starting qsub in parent folder with Python fails
+Error python datetime/time imports...
+Set text in QTextBrowser with a QString that includes QProcess enums
+What line of code could I use in C++ to disable energy saver?
+Duck typing: how to avoid name collisions?
+How to overload `float()` for a custom class in Python?
+Form submission troubleshooting/database management in Django?
+Create a list of objects
+car doesn't move correctly in my game c++
+python diamond inheritance and the use of super() in the parents of the derived class
+Does C++ have less functions than PHP?
+C++ - contiguous memory and polymorphism
+Python Sphinx referencing long names
+Can python distutils compile CUDA code?
+Django admin inline-model customization
+Truncating a string in python
+What is the need of reference in C++
+How to find special values in large file using C++ or C
+Propagation of NaN through calculations
+Multi-Processing browser?
+Realtime options (Websockets, flash, polling) for Django?
+C++ LNK 2019 from different project but in the same solution
+Pass Iterable C++ class to Python using swig
+Python issue using xml.dom.minidom Document. Extra empty lines between child elements using toprettyxml()
+Why does VC++ 2010 allow this to compile?
+Can a C/C++ linux shared library auto-update by overwriting its own file on disk to a newer version?
+How do I build a static library and executable with Qt?
+C++ buffer pool?
+n-gram name analysis in non-english languages (CJK, etc)
+Efficient XML parsing for 25GB data
+Strange usage of std::map constructor
+Removing trailing empty elements in a list
+How to remove black background from textures in OpenGL
+Creating a basic UDP chat Program in C++
+Ajax avatar preview with jQuery In django
+Django-admin-tools media/CSS styles not loading
+java lwuit port to C++
+How can I print a list of sets to a file, with python, in a format that is easily put into excel, eliminating all the unwanted characters?
+Django: save a OneToOneField automatically from *related* model?
+Python list gives error in one instant but is okay in the other
+How can I force the 32-bit version of the remote desktop client to run on 64 bit Vista?
+How to tell if two web contents are similar?
+Reading, writing and searching through text files with Qt
+Compiling code that uses socket function bind() with libcxx fails
+Python 3.0.1 collections.Counter
+Unknown error on C++, error: expected primary expression before ';' token
+How can I make a blank subplot in matplotlib?
+C++ object as return value: copy or reference?
+What causes a Python segmentation fault?
+How to (re-) arrange this python code without breaking sqlalchemy relevant dependencies?
+what is the best way to connect my application with kernel?
+Inheritance and Friendship access. C++
+Container of shared_ptr's but iterate with raw pointers
+Set a version to a SQLite database file
+C++ map::find char cmake-build-debug CMakeLists.txt data debug.log Examen.aux Examen IR jan 2018.pdf Examen IR jan 2019 - Solutions.pdf Examen IR jan 2020.pdf Examen.log Examen.synctex.gz Examen.tex exec index Information_Retrieval.exe irbookonlinereading.pdf line lucene-8.4.0 lucene-8.4.0.tgz main.cpp processed processed.zip Project project1(1).pdf script.sh test tinyXML titles.txt verslag.aux verslag.log verslag.pdf verslag.synctex.gz verslag.tex vs. char []
+Elegant Python code for Integer Partitioning
+How do you display stdout on a web page generated by Python?
+get the right position with PasteSpecial() in c++ using ole
+refreshing just a div on http post
+Automatically Including OpenCV Libraries of Different Versions
+Does g++ compilation time depend on array size?
+Using Python telnet lib w/o logout command
+Python invalid syntax in print
+Python Balanced sports schedule generation
+ffmpeg use on iOS
+Python xlutils copies over incorrect year
+How to change an array with a function?
+What is the best way to create a pentadiagonal sparse matrix for finite difference method in c/c++?
+Non-fatal IronPython NumPy Exceptions
+Python: Setting an alarm outside of the main thread
+Getting a dict of all the blocks in a Jinja2 template
+Copy a file to a new location and increment filename, python
+Render Buffer on Screen in Windows
+C++ Members fail to update
+Possible to Unpickle class instances after being converted from old to new style?
+Python CSV homework program
+Effective query with multiple conditions
+Transpose values and key in python dictionary when values are not unique
+Modifying a Compiled Static Library
+Global variable can't be assigned in Python
+Storing big numbers over 9,000 digits in Python
+C++ Template Class with Static Members - Same for all types of the class
+PyTables said missing, preveting VITables to be installed
+Connect to web-service
+Allocating Memory In A Function To Return to User
+How to verify that serialized JSON is correct in Python/C# in a unit test?
+Regular expression in python to capture multiple forms of badly formatted addresses
+Python rpyc can not run a psutil command remotely
+Is it possible to save changes to a list, dictionary etc without creating output file?
+How do you find variable and function definitions in Anjuta?
+Comparing a float and an int in Python
+X11 : How to Render Continuously
+Django get url path without using &quot;request.path&quot;
+If tuples are described as sequence types, why is a tuple of length 1 treated as a scalar?
+Extracting a number from a 1-word string
+Remove class attribute from HTML using Python and lxml
+Ambiguous conversion in dynamic_cast
+How do I tell if Python's Multiprocessing module is using all of my cores for calculations?
+Event system with use of function&lt;void (boost::any)&gt; good idea?
+importing pywiiuse to test out
+Passing Credentials From Desktop Application to Django App
+Segmentation Fault in Binary Tree
+List of verticies from OpenGL program to something importable
+Custom delegate in PySide
+How to detect duplicate entries in a boost::property_tree
+Binary string to byte[] in C++?
+Why aren't named parameters used more often?
+Replace part of a string in Python?
+Giant Char or multiple Chars for console game map?
+RapidJSON library getting a value inside an array by its index
+Maintaining a Linked List in File
+Passing objects to other objects - via methods or constructor?
+Python cgi script inserts only integers into mysql database
+Python introspection: access function name and docstring inside function definition
+How do I create a Python pypi package with a C library?
+Start programs in the background and kill them as soon as one of them dies with an exit code
+static instance variable for multiple objects - c++
+Python urllib simple login script
+Seg fault when saving data using boost::serialization
+How to combine the data from two CSV files in BASH?
+Getting Context of &quot;this&quot; inside a class and assigning to a class pointer TheClass*
+Why python multi-threading and Queue does not help accelerate reading a big number of files?
+atof changing values of global array
+Initial Value with Form not working
+Qt physics scene multithreading
+prefix notation string to int conversion
+How do I resolve this &lt;unresolved overloaded function type&gt; error when using std::function?
+Inheritance: method getting its doc string from the parent class
+How to terminate a qt programming if initialization failed?
+How to import a module from a directory on level above the current script
+Python script dies when I paste multiline text into input prompt
+Pointer to local variable in C++
+VIM syntax folding : disable folding multi-line comments
+where is the address that a function pointer stores
+Tracking down the assumptions made by SciPy's `ttest_ind()` function
+permutations of lists python
+Ambiguous Overloaded Functions - How and Why?
+Python C-API PyUnicode_FromString
+Python/iptables: Capturing all UDP packets and their original destination
+Filtering between two datefield on django
+Boost::Asio::Ip::Tcp::Iostream questions
+Why are iterators causing very slow debugging in VS2010 even with _HAS_ITERATOR_DEBUGGING, _SECURE_SCL, _SECURE_SCL_THROWS set to 0
+How to declare an array of pointers to int arrays?
+Program doesn't run, just restarts
+How to Detect Wrong Write
+Need floating point precision, GUI gui uses int
+Remove a key from a C++ map
+Unable to send APN notifications with pyapns
+Sorting with a list iterator
+testing session variables and db storage in cherrypy app
+Django {% url %} reverse not working
+&quot;Smart&quot; Linked Scrollbar and Edit Controls?
+Crawling all wikipedia pages for phrases in python
+C++ refactoring to add a namespace to all classes and functions?
+Invoking Astyle on a string or a file via C#
+merge a tuple in python
+Easiest way to initialize a large number of variables
+Link with Cocoa Framework from C++ and Objective-C++
+How do I use getline and stringstream to parse formatted date and time input?
+Refer to class variable in another class variable definition
+Tkinter - RuntimeError: maximum recursion depth exceeded
+In what order does Python resolve functions? (why does string.join(lst.append('a')) fail?)
